@@ -1,0 +1,16 @@
+#NeosRulez:
+#  Shop:
+#    Payment:
+#      globalPayments:
+#        class: NeosRulez\Shop\GlobalPayments\Domain\Service\Payment\Gp
+#        props:
+#          label: 'Global Payments'
+#          icon: 'far fa-credit-card'
+#          success_page: 'db1f5d4b-c04c-443f-b08b-7b709c13c2b2'
+#          failure_page: '1d3bda42-f825-40c0-9154-6a6473b10c50'
+#          payment_status: 1
+#        args:
+#          merchantnumber: '7312301697'
+#          privateKeyFile: 'Data/Security/Production/gpwebpay-pvk.key'
+#          publicKeyFile: 'Data/Security/Production/gpe.signing_prod.pem'
+#          password: '+Hci!ZfkvfJ2kdA#w'
